@@ -1,0 +1,78 @@
+---
+layout: layouts/base.njk
+title: Hardwired Smoke Alarm Installation Christchurch | 240V Alarms
+metaDescription: "Hardwired 240V smoke alarm installation and replacement in Christchurch by EWRB registered electricians. Mains-powered alarms with battery backup, Certificate of Compliance included. Call 0800 120 046."
+imgKey: hardwired-smoke-alarm-installation
+heroTitle: Hardwired Smoke Alarm Installation Christchurch
+heroLead: Mains-powered 240V alarms with battery backup, installed and replaced by EWRB registered electricians — with a Certificate of Compliance for every wired job.
+breadcrumb: Hardwired Smoke Alarm Installation
+faqs:
+  - q: "My house already has hardwired alarms. Do they expire too?"
+    a: "They do, and this catches a lot of people out. Being wired to the mains keeps the power supply sorted, but the smoke sensor inside still degrades — 10 years is the limit, same as battery alarms. Loads of 2000s-era Christchurch homes, including plenty of post-quake rebuilds from the early 2010s, are running hardwired alarms that are now past their date. Check the sticker on the side; if there isn't one, it's almost certainly overdue."
+  - q: "Can I replace a hardwired alarm myself?"
+    a: "No — and not just as a legal technicality. Hardwired alarms connect to 240V mains wiring, which is restricted electrical work that needs a registered electrician. DIY mains work risks a shock, a fire (grimly ironic in this case), your insurance cover, and problems at sale time. The good news: a straight swap is quick for us and priced accordingly."
+  - q: "Hardwired or long-life battery — which is actually better?"
+    a: "Honest answer: for most existing Christchurch homes, modern sealed-battery photoelectric alarms are just as good and cheaper to install — that's what we recommend when there's no wiring in place already. Where hardwired wins: homes that already have the wiring (replacements are easy), new builds where the Code requires it, and larger interconnected systems. If your house has hardwired alarms now, stick with hardwired — replacing like for like keeps everything compliant."
+  - q: "Do I get a Certificate of Compliance?"
+    a: "Yes. Any wired alarm work we do comes with a Certificate of Compliance issued by the electrician who did the job, confirming the work meets the wiring rules. Keep it with your house records — insurers and lawyers ask for these at claim and sale time."
+---
+
+{% include "partials/page-hero.njk" %}
+
+{%- set img1 = images[imgKey].content[0] %}
+{%- set img2 = images[imgKey].content[1] %}
+
+<section class="content-block">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-7">
+        <span class="section-label">Wired In</span>
+        <h2 class="mt-2">Proper 240V Alarms, Properly Installed</h2>
+        <p>A hardwired smoke alarm runs off your home's mains power with a backup battery for outages — no waiting for a battery to die, and with interconnection built in, they're the backbone of most new-build alarm systems in Christchurch.</p>
+        <p>The catch is that word "wired". This isn't a stick-it-to-the-ceiling job; it's electrical work on 240V circuits, which by law needs a registered electrician. We see the aftermath of DIY attempts more often than you'd hope — alarms hanging off taped joins in the roof space, alarms wired into lighting circuits that cut alarm power when a breaker trips, and one memorable job in Hornby where the "hardwired" alarm turned out to be connected to nothing at all. It had been decorative for six years.</p>
+        <p>Our electricians wire alarms the boring, correct way: proper circuit, proper connections, battery backup confirmed, interconnection tested from every alarm, Certificate of Compliance in your inbox. Boring is exactly what you want from electrical work.</p>
+      </div>
+      <div class="col-lg-5">
+        <div class="content-img-wrap">
+          <picture>
+            <source srcset="{{ img1.webp }}" type="image/webp">
+            <img src="{{ img1.file }}" alt="{{ img1.alt }}" width="{{ img1.width }}" height="{{ img1.height }}" loading="lazy">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="content-block bg-light-bg">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-5 order-lg-1 order-2">
+        <div class="content-img-wrap">
+          <picture>
+            <source srcset="{{ img2.webp }}" type="image/webp">
+            <img src="{{ img2.file }}" alt="Electrician replacing a hardwired smoke alarm in a Christchurch ceiling" width="{{ img2.width }}" height="{{ img2.height }}" loading="lazy">
+          </picture>
+        </div>
+      </div>
+      <div class="col-lg-7 order-lg-2 order-1">
+        <span class="section-label">What We Handle</span>
+        <h2 class="mt-2">Hardwired Jobs We Do Every Week</h2>
+        <ul class="signs-list mt-4">
+          <li><i class="fas fa-rotate"></i><span><strong>Like-for-like replacements.</strong> Your existing hardwired alarms hit their 10-year expiry and need swapping — the most common job on this page, and the quickest.</span></li>
+          <li><i class="fas fa-house"></i><span><strong>New builds and renovations.</strong> Full interconnected hardwired systems installed to Building Code F7, coordinated with your builder and ready for sign-off.</span></li>
+          <li><i class="fas fa-triangle-exclamation"></i><span><strong>Faulty alarm callouts.</strong> Random beeping, alarms triggering at 3am with no smoke, one alarm dead while the rest work — we diagnose and fix rather than guess.</span></li>
+          <li><i class="fas fa-plus"></i><span><strong>Adding alarms to a wired system.</strong> Converted the garage? Added a sleepout? We extend the circuit so the new space is covered and connected.</span></li>
+          <li><i class="fas fa-arrows-turn-to-dots"></i><span><strong>Upgrading old ionisation hardwired alarms.</strong> Same wiring, modern photoelectric heads — better detection without re-cabling anything.</span></li>
+        </ul>
+        <div class="info-callout mt-4">
+          <p><strong>Not sure if your alarms are hardwired?</strong> Twist one gently off its base — wires behind it mean mains-powered, and a registered electrician for any replacement. Or just send us a photo and we'll tell you in two minutes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include "partials/faq-accordion.njk" %}
+{% include "partials/quote-section.njk" %}
+{% include "partials/cta-band.njk" %}

@@ -1,0 +1,80 @@
+---
+layout: layouts/base.njk
+title: Smoke Alarm Testing & Maintenance Christchurch | From $99
+metaDescription: "Professional smoke alarm testing and maintenance in Christchurch. Every alarm tested, cleaned and dated with a simple written report — homes, rentals and small businesses. Call 0800 120 046."
+imgKey: smoke-alarm-testing-and-maintenance
+heroTitle: Smoke Alarm Testing & Maintenance Christchurch
+heroLead: Every alarm in the house tested, cleaned and dated, with a plain-English report on what's healthy and what's due for replacement. Homes, rentals and small commercial — from $99.
+breadcrumb: Smoke Alarm Testing & Maintenance
+faqs:
+  - q: "How often should smoke alarms be tested?"
+    a: "Press the test button monthly — it takes ten seconds while the kettle boils. Give each alarm a vacuum around the vents a couple of times a year, because dust and the odd spider are behind most false alarms and slow sensors. Then have the set properly checked (dates, placement, sensor condition) every year or so, which is the visit this page is about."
+  - q: "What does your maintenance visit include that I can't do myself?"
+    a: "The button test you can do — and should. What we add: reading the manufacture dates and building you a replacement timeline, checking each alarm is the right type and in a spot that meets current guidance, cleaning sensor vents properly, testing interconnection actually works from every alarm (people are regularly surprised), and writing it all down. The report matters more than people expect — for insurance, for rentals, and for simply not having to think about it again for a year."
+  - q: "Is the vacuum cleaner thing real, or electrician folklore?"
+    a: "Completely real. Photoelectric alarms work by detecting particles that scatter light — and dust particles scatter light just fine. A dusty chamber causes random false alarms (very popular at 2am) or dulls the sensor's response. A gentle vacuum around the vents twice a year keeps the chamber clean. It's the least glamorous fire safety advice we give, and some of the most effective."
+  - q: "Do you do testing for businesses too?"
+    a: "Yes — small commercial premises like offices, shops and cafes with domestic-style alarms are straightforward for us. Larger buildings with monitored fire panel systems need a fire protection company for their scheduled inspections, and we'll tell you honestly if that's your setup. If you're not sure which world your building lives in, send us a photo and we'll point you the right way."
+---
+
+{% include "partials/page-hero.njk" %}
+
+{%- set img1 = images[imgKey].content[0] %}
+{%- set img2 = images[imgKey].content[1] %}
+
+<section class="content-block">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-7">
+        <span class="section-label">The Once-a-Year Job</span>
+        <h2 class="mt-2">Alarms Are Only as Good as Their Last Check</h2>
+        <p>Smoke alarms are the definition of out of sight, out of mind. They ask for nothing, month after month, and that silence is exactly the problem — a dead alarm and a healthy one look identical from the couch. The only difference shows up on the one night it matters, which is a terrible time to find out.</p>
+        <p>Our testing visit is the fire-safety equivalent of a WOF. We go alarm to alarm through the house: does it sound, is the sensor responsive, how old is it, is it the right type, and is it actually in a useful spot? Then you get a one-page report in plain English — not a wall of jargon, just "these four are healthy, this one in the hallway expires in March, and the kitchen one should move two metres left."</p>
+        <p>For most homeowners it's an annual visit. For landlords it slots into tenancy changeovers alongside our <a href="/rental-property-smoke-alarm-compliance/">compliance check</a>. And for anyone who's just bought a house — honestly, book it for settlement week. We've checked "recently renovated" homes where every alarm in the place was a 2008 model with a fresh coat of ceiling paint sealing the vents shut.</p>
+      </div>
+      <div class="col-lg-5">
+        <div class="content-img-wrap">
+          <picture>
+            <source srcset="{{ img1.webp }}" type="image/webp">
+            <img src="{{ img1.file }}" alt="{{ img1.alt }}" width="{{ img1.width }}" height="{{ img1.height }}" loading="lazy">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="content-block bg-light-bg">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-5 order-lg-1 order-2">
+        <div class="content-img-wrap">
+          <picture>
+            <source srcset="{{ img2.webp }}" type="image/webp">
+            <img src="{{ img2.file }}" alt="Smoke alarm test and maintenance check in a Christchurch home" width="{{ img2.width }}" height="{{ img2.height }}" loading="lazy">
+          </picture>
+        </div>
+      </div>
+      <div class="col-lg-7 order-lg-2 order-1">
+        <span class="section-label">The Checklist</span>
+        <h2 class="mt-2">What Gets Checked on Every Visit</h2>
+        <ul class="check-list mt-4 mb-4">
+          <li><i class="fas fa-circle-check"></i> Sound test on every alarm — full volume, not just a polite beep</li>
+          <li><i class="fas fa-circle-check"></i> Sensor response checked, not just the battery</li>
+          <li><i class="fas fa-circle-check"></i> Manufacture dates read and logged, with a replacement timeline</li>
+          <li><i class="fas fa-circle-check"></i> Vents cleaned — dust out, spiders evicted</li>
+          <li><i class="fas fa-circle-check"></i> Placement reviewed against current guidance</li>
+          <li><i class="fas fa-circle-check"></i> Interconnection tested from each alarm, where fitted</li>
+          <li><i class="fas fa-circle-check"></i> Plain-English report emailed the same day</li>
+        </ul>
+        <div class="info-callout safe">
+          <p><strong>Between visits:</strong> test the button monthly, vacuum the vents when the clocks change, and never take a battery out "just for now." That's 90% of smoke alarm maintenance, free.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include "partials/faq-accordion.njk" %}
+{% include "partials/quote-section.njk" %}
+{% include "partials/cta-band.njk" %}

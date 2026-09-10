@@ -1,0 +1,36 @@
+---
+layout: layouts/base.njk
+title: Service Areas | Smoke Alarm Installation Christchurch
+metaDescription: "Smoke alarm installation across every Christchurch suburb and surrounding towns — Riccarton to Rolleston, Sumner to Rangiora. Wigram based, Canterbury wide. Call 0800 120 046."
+imgKey: service-areas
+heroTitle: Suburbs We Cover
+heroLead: Based in Wigram, on the road across Christchurch every working day — and out to the surrounding towns on regular runs. If you can see the Port Hills or the plains, odds are we cover you.
+breadcrumb: Service Areas
+---
+
+{% include "partials/page-hero.njk" %}
+
+<section class="service-area-section">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="section-label">Canterbury Wide</span>
+      <h2 class="mt-2">Every Corner of Christchurch, Most Days of the Week</h2>
+      <p class="text-muted mx-auto" style="max-width:680px;">Different suburbs, different alarm jobs. The 1920s bungalows of St Albans need different placement thinking than a Rolleston new build or a students' flat in Ilam — and after twelve years here, we've done them all many times over.</p>
+    </div>
+    <div class="suburb-grid">
+      {%- for suburb in suburbs %}
+      <div class="suburb-card">
+        <span class="suburb-region-tag {{ suburb.region }}">{% if suburb.region == 'city' %}Christchurch City{% elif suburb.region == 'hills' %}Port Hills &amp; Bays{% elif suburb.region == 'coast' %}Coastal{% elif suburb.region == 'north' %}North Canterbury{% else %}Selwyn District{% endif %}</span>
+        <h5>{{ suburb.name }}</h5>
+        <p>{{ suburb.note }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+    <div class="info-callout mt-5">
+      <p><strong>Suburb not listed?</strong> This isn't the full map, just the places we're asked about most. We take jobs anywhere within sensible reach of Christchurch — call {{ business.phoneDisplay }} and ask.</p>
+    </div>
+  </div>
+</section>
+
+{% include "partials/quote-section.njk" %}
+{% include "partials/cta-band.njk" %}

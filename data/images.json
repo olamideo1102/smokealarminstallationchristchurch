@@ -1,0 +1,327 @@
+{
+  "home": {
+    "content": [
+      {
+        "file": "/assets/images/home/home-1.jpg",
+        "webp": "/assets/images/home/home-1.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Photoelectric smoke alarm installation in a Christchurch home"
+      },
+      {
+        "file": "/assets/images/home/home-2.jpg",
+        "webp": "/assets/images/home/home-2.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Photoelectric smoke alarm installation in a Christchurch home"
+      }
+    ],
+    "hero": {
+      "file": "/assets/images/home/home-hero.jpg",
+      "webp": "/assets/images/home/home-hero.webp",
+      "width": 1600,
+      "height": 900,
+      "alt": "Photoelectric smoke alarm installation in a Christchurch home"
+    }
+  },
+  "photoelectric-smoke-alarm-installation": {
+    "content": [
+      {
+        "file": "/assets/images/photoelectric-smoke-alarm-installation/photoelectric-smoke-alarm-installation-1.jpg",
+        "webp": "/assets/images/photoelectric-smoke-alarm-installation/photoelectric-smoke-alarm-installation-1.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Photoelectric smoke alarm on a ceiling in Christchurch"
+      },
+      {
+        "file": "/assets/images/photoelectric-smoke-alarm-installation/photoelectric-smoke-alarm-installation-2.jpg",
+        "webp": "/assets/images/photoelectric-smoke-alarm-installation/photoelectric-smoke-alarm-installation-2.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Photoelectric smoke alarm on a ceiling in Christchurch"
+      }
+    ],
+    "hero": {
+      "file": "/assets/images/photoelectric-smoke-alarm-installation/photoelectric-smoke-alarm-installation-hero.jpg",
+      "webp": "/assets/images/photoelectric-smoke-alarm-installation/photoelectric-smoke-alarm-installation-hero.webp",
+      "width": 1600,
+      "height": 900,
+      "alt": "Photoelectric smoke alarm on a ceiling in Christchurch"
+    }
+  },
+  "interconnected-smoke-alarms": {
+    "content": [
+      {
+        "file": "/assets/images/interconnected-smoke-alarms/interconnected-smoke-alarms-1.jpg",
+        "webp": "/assets/images/interconnected-smoke-alarms/interconnected-smoke-alarms-1.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Interconnected smoke alarm system in a Christchurch home"
+      },
+      {
+        "file": "/assets/images/interconnected-smoke-alarms/interconnected-smoke-alarms-2.jpg",
+        "webp": "/assets/images/interconnected-smoke-alarms/interconnected-smoke-alarms-2.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Interconnected smoke alarm system in a Christchurch home"
+      }
+    ],
+    "hero": {
+      "file": "/assets/images/interconnected-smoke-alarms/interconnected-smoke-alarms-hero.jpg",
+      "webp": "/assets/images/interconnected-smoke-alarms/interconnected-smoke-alarms-hero.webp",
+      "width": 1600,
+      "height": 900,
+      "alt": "Interconnected smoke alarm system in a Christchurch home"
+    }
+  },
+  "hardwired-smoke-alarm-installation": {
+    "content": [
+      {
+        "file": "/assets/images/hardwired-smoke-alarm-installation/hardwired-smoke-alarm-installation-1.jpg",
+        "webp": "/assets/images/hardwired-smoke-alarm-installation/hardwired-smoke-alarm-installation-1.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Electrician hardwiring a smoke alarm in Christchurch"
+      },
+      {
+        "file": "/assets/images/hardwired-smoke-alarm-installation/hardwired-smoke-alarm-installation-2.jpg",
+        "webp": "/assets/images/hardwired-smoke-alarm-installation/hardwired-smoke-alarm-installation-2.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Electrician hardwiring a smoke alarm in Christchurch"
+      }
+    ],
+    "hero": {
+      "file": "/assets/images/hardwired-smoke-alarm-installation/hardwired-smoke-alarm-installation-hero.jpg",
+      "webp": "/assets/images/hardwired-smoke-alarm-installation/hardwired-smoke-alarm-installation-hero.webp",
+      "width": 1600,
+      "height": 900,
+      "alt": "Electrician hardwiring a smoke alarm in Christchurch"
+    }
+  },
+  "rental-property-smoke-alarm-compliance": {
+    "content": [
+      {
+        "file": "/assets/images/rental-property-smoke-alarm-compliance/rental-property-smoke-alarm-compliance-1.jpg",
+        "webp": "/assets/images/rental-property-smoke-alarm-compliance/rental-property-smoke-alarm-compliance-1.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Rental property smoke alarm compliance check in Christchurch"
+      },
+      {
+        "file": "/assets/images/rental-property-smoke-alarm-compliance/rental-property-smoke-alarm-compliance-2.jpg",
+        "webp": "/assets/images/rental-property-smoke-alarm-compliance/rental-property-smoke-alarm-compliance-2.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Rental property smoke alarm compliance check in Christchurch"
+      }
+    ],
+    "hero": {
+      "file": "/assets/images/rental-property-smoke-alarm-compliance/rental-property-smoke-alarm-compliance-hero.jpg",
+      "webp": "/assets/images/rental-property-smoke-alarm-compliance/rental-property-smoke-alarm-compliance-hero.webp",
+      "width": 1600,
+      "height": 900,
+      "alt": "Rental property smoke alarm compliance check in Christchurch"
+    }
+  },
+  "smoke-alarm-replacement": {
+    "content": [
+      {
+        "file": "/assets/images/smoke-alarm-replacement/smoke-alarm-replacement-1.jpg",
+        "webp": "/assets/images/smoke-alarm-replacement/smoke-alarm-replacement-1.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Replacing an expired smoke alarm in a Christchurch home"
+      },
+      {
+        "file": "/assets/images/smoke-alarm-replacement/smoke-alarm-replacement-2.jpg",
+        "webp": "/assets/images/smoke-alarm-replacement/smoke-alarm-replacement-2.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Replacing an expired smoke alarm in a Christchurch home"
+      }
+    ],
+    "hero": {
+      "file": "/assets/images/smoke-alarm-replacement/smoke-alarm-replacement-hero.jpg",
+      "webp": "/assets/images/smoke-alarm-replacement/smoke-alarm-replacement-hero.webp",
+      "width": 1600,
+      "height": 900,
+      "alt": "Replacing an expired smoke alarm in a Christchurch home"
+    }
+  },
+  "smoke-alarm-testing-and-maintenance": {
+    "content": [
+      {
+        "file": "/assets/images/smoke-alarm-testing-and-maintenance/smoke-alarm-testing-and-maintenance-1.jpg",
+        "webp": "/assets/images/smoke-alarm-testing-and-maintenance/smoke-alarm-testing-and-maintenance-1.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Testing a smoke alarm in a Christchurch home"
+      },
+      {
+        "file": "/assets/images/smoke-alarm-testing-and-maintenance/smoke-alarm-testing-and-maintenance-2.jpg",
+        "webp": "/assets/images/smoke-alarm-testing-and-maintenance/smoke-alarm-testing-and-maintenance-2.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Testing a smoke alarm in a Christchurch home"
+      }
+    ],
+    "hero": {
+      "file": "/assets/images/smoke-alarm-testing-and-maintenance/smoke-alarm-testing-and-maintenance-hero.jpg",
+      "webp": "/assets/images/smoke-alarm-testing-and-maintenance/smoke-alarm-testing-and-maintenance-hero.webp",
+      "width": 1600,
+      "height": 900,
+      "alt": "Testing a smoke alarm in a Christchurch home"
+    }
+  },
+  "how-it-works": {
+    "content": [
+      {
+        "file": "/assets/images/how-it-works/how-it-works-1.jpg",
+        "webp": "/assets/images/how-it-works/how-it-works-1.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Smoke alarm installer arriving at a Christchurch home"
+      },
+      {
+        "file": "/assets/images/how-it-works/how-it-works-2.jpg",
+        "webp": "/assets/images/how-it-works/how-it-works-2.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Smoke alarm installer arriving at a Christchurch home"
+      }
+    ],
+    "hero": {
+      "file": "/assets/images/how-it-works/how-it-works-hero.jpg",
+      "webp": "/assets/images/how-it-works/how-it-works-hero.webp",
+      "width": 1600,
+      "height": 900,
+      "alt": "Smoke alarm installer arriving at a Christchurch home"
+    }
+  },
+  "pricing": {
+    "content": [
+      {
+        "file": "/assets/images/pricing/pricing-1.jpg",
+        "webp": "/assets/images/pricing/pricing-1.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Upfront smoke alarm installation pricing in Christchurch"
+      },
+      {
+        "file": "/assets/images/pricing/pricing-2.jpg",
+        "webp": "/assets/images/pricing/pricing-2.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Upfront smoke alarm installation pricing in Christchurch"
+      }
+    ],
+    "hero": {
+      "file": "/assets/images/pricing/pricing-hero.jpg",
+      "webp": "/assets/images/pricing/pricing-hero.webp",
+      "width": 1600,
+      "height": 900,
+      "alt": "Upfront smoke alarm installation pricing in Christchurch"
+    }
+  },
+  "about": {
+    "content": [
+      {
+        "file": "/assets/images/about/about-1.jpg",
+        "webp": "/assets/images/about/about-1.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "The team behind Smoke Alarm Installation Christchurch"
+      },
+      {
+        "file": "/assets/images/about/about-2.jpg",
+        "webp": "/assets/images/about/about-2.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "The team behind Smoke Alarm Installation Christchurch"
+      }
+    ],
+    "hero": {
+      "file": "/assets/images/about/about-hero.jpg",
+      "webp": "/assets/images/about/about-hero.webp",
+      "width": 1600,
+      "height": 900,
+      "alt": "The team behind Smoke Alarm Installation Christchurch"
+    }
+  },
+  "faqs": {
+    "content": [
+      {
+        "file": "/assets/images/faqs/faqs-1.jpg",
+        "webp": "/assets/images/faqs/faqs-1.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Common questions about smoke alarm installation in Christchurch"
+      },
+      {
+        "file": "/assets/images/faqs/faqs-2.jpg",
+        "webp": "/assets/images/faqs/faqs-2.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Common questions about smoke alarm installation in Christchurch"
+      }
+    ],
+    "hero": {
+      "file": "/assets/images/faqs/faqs-hero.jpg",
+      "webp": "/assets/images/faqs/faqs-hero.webp",
+      "width": 1600,
+      "height": 900,
+      "alt": "Common questions about smoke alarm installation in Christchurch"
+    }
+  },
+  "service-areas": {
+    "content": [
+      {
+        "file": "/assets/images/service-areas/service-areas-1.jpg",
+        "webp": "/assets/images/service-areas/service-areas-1.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Christchurch suburbs covered by Smoke Alarm Installation Christchurch"
+      },
+      {
+        "file": "/assets/images/service-areas/service-areas-2.jpg",
+        "webp": "/assets/images/service-areas/service-areas-2.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Christchurch suburbs covered by Smoke Alarm Installation Christchurch"
+      }
+    ],
+    "hero": {
+      "file": "/assets/images/service-areas/service-areas-hero.jpg",
+      "webp": "/assets/images/service-areas/service-areas-hero.webp",
+      "width": 1600,
+      "height": 900,
+      "alt": "Christchurch suburbs covered by Smoke Alarm Installation Christchurch"
+    }
+  },
+  "contact": {
+    "content": [
+      {
+        "file": "/assets/images/contact/contact-1.jpg",
+        "webp": "/assets/images/contact/contact-1.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Contact Smoke Alarm Installation Christchurch"
+      },
+      {
+        "file": "/assets/images/contact/contact-2.jpg",
+        "webp": "/assets/images/contact/contact-2.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Contact Smoke Alarm Installation Christchurch"
+      }
+    ],
+    "hero": {
+      "file": "/assets/images/contact/contact-hero.jpg",
+      "webp": "/assets/images/contact/contact-hero.webp",
+      "width": 1600,
+      "height": 900,
+      "alt": "Contact Smoke Alarm Installation Christchurch"
+    }
+  }
+}

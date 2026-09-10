@@ -1,0 +1,41 @@
+<section class="faq-section" id="faqs">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="section-label">Common Questions</span>
+      <h2 class="mt-2">{{ faqHeading or "Smoke Alarm Questions We Get All the Time" }}</h2>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <div class="accordion" id="faqAccordion">
+          {%- for faq in faqs %}
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button{% if not loop.first %} collapsed{% endif %}" type="button" data-bs-toggle="collapse" data-bs-target="#faq{{ loop.index }}" aria-expanded="{% if loop.first %}true{% else %}false{% endif %}" aria-controls="faq{{ loop.index }}">
+                {{ faq.q }}
+              </button>
+            </h3>
+            <div id="faq{{ loop.index }}" class="accordion-collapse collapse{% if loop.first %} show{% endif %}" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">{{ faq.a | safe }}</div>
+            </div>
+          </div>
+          {%- endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for faq in faqs %}
+    {
+      "@type": "Question",
+      "name": {{ faq.q | dump | safe }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ faq.a | striptags | dump | safe }} }
+    }{% if not loop.last %},{% endif %}
+    {%- endfor %}
+  ]
+}
+</script>

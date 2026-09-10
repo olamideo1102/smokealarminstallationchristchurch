@@ -1,0 +1,80 @@
+---
+layout: layouts/base.njk
+title: Rental Smoke Alarm Compliance Christchurch | Landlord Checks $99
+metaDescription: "Smoke alarm compliance for Christchurch rental properties. Residential Tenancies Act checks, written reports and photoelectric alarm installs for landlords and property managers. Call 0800 120 046."
+imgKey: rental-property-smoke-alarm-compliance
+heroTitle: Rental Property Smoke Alarm Compliance Christchurch
+heroLead: Tenancies Act rules checked, alarms installed where the law says, and a written report with photos for your file — $99 per property, with discounted alarms if any are needed.
+breadcrumb: Rental Smoke Alarm Compliance
+faqs:
+  - q: "What exactly does the law require in my rental?"
+    a: "Working smoke alarms within 3 metres of every bedroom doorway, at least one on each level of the property, and any new or replacement alarms must be long-life photoelectric or hardwired. The landlord must have working alarms in place at the start of every tenancy; tenants must replace batteries (in older replaceable-battery alarms) during the tenancy and must not disable alarms. Caravans, sleepouts and self-contained units count too."
+  - q: "What happens if a rental doesn't comply?"
+    a: "Failing to meet smoke alarm obligations is an unlawful act under the Residential Tenancies Act, and the Tenancy Tribunal can award exemplary damages of up to $7,200. Insurance is the quieter risk — after a fire, one of the first questions is whether the alarms met the rules. A $99 check per property is cheap next to either conversation."
+  - q: "Do you work with property managers on multiple rentals?"
+    a: "All the time — portfolio checks across Riccarton, Ilam, Hornby and the wider city are a big part of our week. We schedule directly with tenants, handle access politely, and send each property's report to your office the same day. Ask about portfolio rates when you call."
+  - q: "How often should rental alarms be checked?"
+    a: "The practical rhythm: a check at every tenancy changeover (that's when the 'working alarms at the start of the tenancy' obligation bites), plus an annual once-over if tenancies run long. Many of our landlord clients simply book us for the gap between tenants — the report then sits in the file as proof the obligation was met on day one."
+---
+
+{% include "partials/page-hero.njk" %}
+
+{%- set img1 = images[imgKey].content[0] %}
+{%- set img2 = images[imgKey].content[1] %}
+
+<section class="content-block">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-7">
+        <span class="section-label">For Landlords</span>
+        <h2 class="mt-2">The Cheapest Insurance a Landlord Can Buy</h2>
+        <p>A landlord we work with in Riccarton put it well: "I spent two years arguing with my insurer about a hot water cylinder, and the smoke alarm check costs less than the excess on my car." He books us every tenancy changeover across four properties, and the reports sit quietly in a folder doing what paperwork does best — proving he did the right thing, on the right date.</p>
+        <p>The smoke alarm rules for rentals aren't complicated, but they are specific, and "there's an alarm in the hallway somewhere" doesn't meet them. Within 3 metres of every bedroom door. Every level. Long-life photoelectric whenever an alarm is added or replaced. Working at the start of every single tenancy — which means the alarm your last tenant's flatmate took the battery out of is now your legal problem.</p>
+        <p>Get it wrong and the Tenancy Tribunal can award up to $7,200 in exemplary damages. Get unlucky as well, and a fire with non-compliant alarms turns into an insurance argument you don't want. For $99 a property, we make the whole issue go away.</p>
+      </div>
+      <div class="col-lg-5">
+        <div class="content-img-wrap">
+          <picture>
+            <source srcset="{{ img1.webp }}" type="image/webp">
+            <img src="{{ img1.file }}" alt="{{ img1.alt }}" width="{{ img1.width }}" height="{{ img1.height }}" loading="lazy">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="content-block bg-light-bg">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-5 order-lg-1 order-2">
+        <div class="content-img-wrap">
+          <picture>
+            <source srcset="{{ img2.webp }}" type="image/webp">
+            <img src="{{ img2.file }}" alt="Smoke alarm compliance report for a Christchurch rental property" width="{{ img2.width }}" height="{{ img2.height }}" loading="lazy">
+          </picture>
+        </div>
+      </div>
+      <div class="col-lg-7 order-lg-2 order-1">
+        <span class="section-label">The Service</span>
+        <h2 class="mt-2">What the $99 Compliance Check Covers</h2>
+        <ul class="check-list mt-4 mb-4">
+          <li><i class="fas fa-circle-check"></i> Every alarm tested — sound, sensor and battery condition</li>
+          <li><i class="fas fa-circle-check"></i> Placement measured against the 3-metre bedroom rule and per-level rule</li>
+          <li><i class="fas fa-circle-check"></i> Expiry dates checked on every unit (10 years from manufacture)</li>
+          <li><i class="fas fa-circle-check"></i> Alarm types verified — flagging old ionisation units due for photoelectric swaps</li>
+          <li><i class="fas fa-circle-check"></i> Written report with photos, emailed same day</li>
+          <li><i class="fas fa-circle-check"></i> Any missing or dead alarms replaced on the spot at discounted rates — one visit, done</li>
+        </ul>
+        <p>We coordinate with tenants directly so you don't have to play messenger, and we're respectful in people's homes — shoes off, quick, tidy. Property managers get a per-property report formatted for the file, and changeover bookings can be standing orders: tell us once, and every vacancy gets checked automatically.</p>
+        <div class="info-callout">
+          <p><strong>Heads up for Healthy Homes paperwork:</strong> while we're there for alarms, we'll happily photograph anything else you need documented — no charge, it's your visit.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include "partials/faq-accordion.njk" %}
+{% include "partials/quote-section.njk" %}
+{% include "partials/cta-band.njk" %}

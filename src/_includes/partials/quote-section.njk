@@ -1,0 +1,87 @@
+<section class="quote-section" id="quote">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="section-label">Get in Touch</span>
+      <h2 class="mt-2">{{ quoteHeading or "Book Your Smoke Alarm Install" }}</h2>
+      <p class="text-muted mx-auto" style="max-width:580px;">{{ quoteLead or "Tell us about your place and we'll come back with a fixed price — usually the same day. Or just call and we'll sort it on the phone." }}</p>
+    </div>
+    <div class="row g-4 align-items-start">
+      <div class="col-lg-7">
+        <div class="form-card">
+          <form action="https://formsubmit.co/{{ business.email }}" method="POST">
+            <input type="hidden" name="_subject" value="New Smoke Alarm Enquiry">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="{{ business.url }}/thank-you/">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label for="name" class="form-label">Full Name *</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Jane Smith" required>
+              </div>
+              <div class="col-md-6">
+                <label for="phone" class="form-label">Phone Number *</label>
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="021 000 0000" required>
+              </div>
+              <div class="col-md-6">
+                <label for="email" class="form-label">Email Address *</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="jane@example.com" required>
+              </div>
+              <div class="col-md-6">
+                <label for="address" class="form-label">Property Address</label>
+                <input type="text" class="form-control" id="address" name="address" placeholder="12 Example Street, Christchurch">
+              </div>
+              <div class="col-12">
+                <label for="job-type" class="form-label">What do you need?</label>
+                <select class="form-select" id="job-type" name="job_type">
+                  <option value="" selected disabled>Select one…</option>
+                  <option value="New photoelectric alarms">New Photoelectric Alarms Installed</option>
+                  <option value="Interconnected alarms">Interconnected Alarm System</option>
+                  <option value="Hardwired alarms">Hardwired (240V) Alarms</option>
+                  <option value="Rental compliance">Rental Property Compliance Check</option>
+                  <option value="Replacement">Replace Old or Expired Alarms</option>
+                  <option value="Testing and maintenance">Testing &amp; Maintenance Visit</option>
+                  <option value="Not sure">Not Sure — Help Me Work It Out</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="4" placeholder="How many bedrooms and levels? Any alarms there already? The more detail, the sharper the quote…"></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn-submit"><i class="fas fa-paper-plane"></i> Send My Enquiry — It's Free</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="contact-card">
+          <h4><i class="fas fa-bell me-2" style="color:var(--amber)"></i>{{ business.name }}</h4>
+          <div class="contact-item">
+            <div class="contact-item-icon"><i class="fas fa-phone"></i></div>
+            <div class="contact-item-text"><strong>Phone</strong><a href="tel:{{ business.phoneTel }}">{{ business.phoneDisplay }}</a></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
+            <div class="contact-item-text"><strong>Email</strong><a href="mailto:{{ business.email }}">{{ business.email }}</a></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon"><i class="fas fa-location-dot"></i></div>
+            <div class="contact-item-text"><strong>Address</strong><span>{{ business.addressLine1 }}, {{ business.suburb }}, {{ business.city }} {{ business.postcode }}</span></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon"><i class="fas fa-clock"></i></div>
+            <div class="contact-item-text"><strong>Hours</strong><span>Mon–Fri 7:30am–5:30pm, Sat 8am–1pm</span></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon"><i class="fas fa-certificate"></i></div>
+            <div class="contact-item-text"><strong>Licence</strong><span>{{ business.licence }}</span></div>
+          </div>
+          <div class="phone-block">
+            <p><i class="fas fa-bolt me-1"></i> Fastest way to book? Just call</p>
+            <a href="tel:{{ business.phoneTel }}">{{ business.phoneDisplay }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

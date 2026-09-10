@@ -1,0 +1,76 @@
+---
+layout: layouts/base.njk
+title: Smoke Alarm Replacement Christchurch | Expired Alarms Swapped
+metaDescription: "Smoke alarm replacement across Christchurch — expired, chirping, yellowed or dead alarms swapped for long-life photoelectric units from $149 fitted. Call 0800 120 046."
+imgKey: smoke-alarm-replacement
+heroTitle: Smoke Alarm Replacement Christchurch
+heroLead: Alarms past their 10-year date, chirping at midnight, or yellowed like old paper? We swap them for fresh long-life photoelectric units — old alarms removed, new ones tested, from $149 fitted.
+breadcrumb: Smoke Alarm Replacement
+faqs:
+  - q: "How do I know if my smoke alarm has expired?"
+    a: "Twist it off the ceiling and look at the back — there's a manufacture date, and often an expiry or 'replace by' date. Ten years from manufacture is the limit, no matter the type or brand. No date visible at all? That usually means it's old enough that the answer is yes. Yellowed plastic is another giveaway: white alarms tan with age like old computer cases, and a properly yellow alarm is well past its use-by."
+  - q: "The alarm still beeps when I press the test button. Doesn't that mean it works?"
+    a: "Sadly, no — this is the most common misunderstanding we hear. The test button checks the battery, the electronics and the sounder. It does not check whether the smoke sensor itself can still detect smoke, and it's the sensor that wears out with age as dust builds up and components drift. A 15-year-old alarm can pass its button test every week and still sleep straight through actual smoke."
+  - q: "Why does my alarm chirp at night, and can you make it stop?"
+    a: "The classic 3am chirp is a low-battery warning, and there's real physics behind the timing — batteries put out slightly less voltage when cold, so the alarm tips over its low-power threshold in the small hours when the house is coldest. If the alarm is under 10 years old, a fresh battery fixes it. If it's older, replace the whole unit — with a sealed 10-year alarm, and that chirp leaves your life for a decade."
+  - q: "What do you do with the old alarms?"
+    a: "We take them away. Old ionisation alarms contain a tiny sealed radioactive source — completely safe in use, but not something for the kitchen bin. We dispose of them through the proper channels, so your only job is enjoying the silence."
+---
+
+{% include "partials/page-hero.njk" %}
+
+{%- set img1 = images[imgKey].content[0] %}
+{%- set img2 = images[imgKey].content[1] %}
+
+<section class="content-block">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-7">
+        <span class="section-label">Time's Up</span>
+        <h2 class="mt-2">Smoke Alarms Have a Use-By Date. Almost Nobody Checks It.</h2>
+        <p>Quick question: how old are your smoke alarms? Not "when did I last change the battery" — how old are the actual units on the ceiling? If you're like most people we ask, the honest answer is "they came with the house."</p>
+        <p>Every smoke alarm — battery, hardwired, cheap, expensive — is done at 10 years. The sensor inside degrades with dust, humidity and time until it responds late, or not at all. The cruel part is that a dying alarm looks and behaves exactly like a healthy one. It sits there. Its light blinks. It even passes the test-button check, because that button doesn't test the sensor. The only reliable signal is the date stamped on the back, and that date lives on the side nobody ever looks at.</p>
+        <p>We did a job in Avonhead last year — lovely 1980s family home, four alarms, every one original. Thirty-something years old. They'd been dutifully battery-swapped every daylight saving like clockwork. The owners were doing everything right except the one thing that mattered, because nobody had ever told them alarms expire. Twenty minutes and four new photoelectric units later, the house was genuinely protected for the first time in decades.</p>
+      </div>
+      <div class="col-lg-5">
+        <div class="content-img-wrap">
+          <picture>
+            <source srcset="{{ img1.webp }}" type="image/webp">
+            <img src="{{ img1.file }}" alt="{{ img1.alt }}" width="{{ img1.width }}" height="{{ img1.height }}" loading="lazy">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="content-block bg-light-bg">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-5 order-lg-1 order-2">
+        <div class="content-img-wrap">
+          <picture>
+            <source srcset="{{ img2.webp }}" type="image/webp">
+            <img src="{{ img2.file }}" alt="New photoelectric smoke alarm replacing an expired unit in Christchurch" width="{{ img2.width }}" height="{{ img2.height }}" loading="lazy">
+          </picture>
+        </div>
+      </div>
+      <div class="col-lg-7 order-lg-2 order-1">
+        <span class="section-label">Replace It If…</span>
+        <h2 class="mt-2">Signs Your Alarms Are Due</h2>
+        <ul class="signs-list mt-4 mb-4">
+          <li><i class="fas fa-calendar-xmark"></i><span><strong>It's past the date on the back</strong> — or there's no date to find. Ten years is the line for every alarm ever made.</span></li>
+          <li><i class="fas fa-droplet"></i><span><strong>The plastic has yellowed.</strong> That tan colour is the case aging, and it takes long enough that the sensor inside is well past its best.</span></li>
+          <li><i class="fas fa-bell-slash"></i><span><strong>It chirps with a fresh battery</strong> — an end-of-life warning, not a battery problem.</span></li>
+          <li><i class="fas fa-fire-burner"></i><span><strong>It's an ionisation model.</strong> Working or not, it's the slow type for smouldering fires. Swapping to photoelectric is the single best alarm upgrade there is.</span></li>
+          <li><i class="fas fa-house-crack"></i><span><strong>It false-alarms constantly or never makes a peep.</strong> Either extreme means the sensor's drifted. Both end the same way — with the battery on top of the fridge.</span></li>
+        </ul>
+        <p>Replacement is quick and the price is flat: $149 for a single alarm supplied and fitted, $389 for our three-alarm whole-home swap, extras at $119. Old units come down, new long-life photoelectric units go up in the right spots, everything gets tested, and we cart the old ones away for proper disposal.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include "partials/faq-accordion.njk" %}
+{% include "partials/quote-section.njk" %}
+{% include "partials/cta-band.njk" %}

@@ -1,0 +1,38 @@
+---
+layout: layouts/base.njk
+title: Contact Us | Smoke Alarm Installation Christchurch
+metaDescription: "Book a smoke alarm installation or compliance check in Christchurch. Call 0800 120 046, email us, or send the form — quotes are free and usually same-day."
+imgKey: contact
+heroTitle: Get in Touch
+heroLead: Call, email, or fill in the form below — whichever suits. Quotes are free, usually same-day, and there's no obligation attached to asking.
+breadcrumb: Contact
+quoteHeading: "Send Us the Details"
+quoteLead: "Bedrooms, levels, own home or rental — that's all we need for a fixed price. We reply to most enquiries within a couple of business hours."
+---
+
+{% include "partials/page-hero.njk" %}
+{% include "partials/quote-section.njk" %}
+
+<section class="content-block">
+  <div class="container">
+    <div class="row g-4 align-items-stretch">
+      <div class="col-lg-6">
+        <span class="section-label">Find Us</span>
+        <h2 class="mt-2 mb-4">Wigram Based, Canterbury Wide</h2>
+        <p>We work from {{ business.addressLine1 }} in {{ business.suburb }} — though you'll more often find us on a ladder somewhere between Rangiora and Rolleston. Site visits are by appointment; the phone is the fastest way to reach us.</p>
+        <ul class="check-list light mt-4">
+          <li><i class="fas fa-phone"></i> <span><strong>Phone:</strong> <a href="tel:{{ business.phoneTel }}">{{ business.phoneDisplay }}</a> — Mon–Fri 7:30am–5:30pm, Sat 8am–1pm</span></li>
+          <li><i class="fas fa-envelope"></i> <span><strong>Email:</strong> <a href="mailto:{{ business.email }}">{{ business.email }}</a></span></li>
+          <li><i class="fas fa-location-dot"></i> <span><strong>Address:</strong> {{ business.addressLine1 }}, {{ business.suburb }}, {{ business.city }} {{ business.postcode }}</span></li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <div class="map-frame">
+          <iframe src="{{ business.mapEmbedSrc }}" title="Map to {{ business.name }}" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include "partials/cta-band.njk" %}

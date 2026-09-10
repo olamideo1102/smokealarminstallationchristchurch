@@ -1,0 +1,70 @@
+---
+layout: layouts/base.njk
+title: How It Works | Smoke Alarm Installation Christchurch
+metaDescription: "How smoke alarm installation works with us — quick quote, one tidy visit, alarms tested and paperwork emailed same day. Most Christchurch homes done in under an hour. Call 0800 120 046."
+imgKey: how-it-works
+heroTitle: How It Works
+heroLead: No site visits to quote, no half-day windows, no drama. Here's the whole process from first call to tested alarms — most homes are done and dusted in under an hour.
+breadcrumb: How It Works
+faqs:
+  - q: "Do you need to visit before quoting?"
+    a: "Almost never. Bedrooms, levels, and whether you've got existing hardwired alarms — that's enough for a fixed price on the phone or by email. The rare exceptions are complicated interconnected retrofits or commercial spaces, and we'll say so upfront rather than surprise you."
+  - q: "Do I need to be home for the install?"
+    a: "Someone over 18 needs to let us in and ideally walk the house with us for two minutes at the start — placement decisions are better with the person who lives there. After that, put the kettle on and leave us to it. For rentals we coordinate directly with tenants."
+  - q: "What payment do you take?"
+    a: "Bank transfer, credit card or EFTPOS on the day. Landlords and property managers get invoiced with normal terms. The amount is whatever we quoted — fixed means fixed."
+  - q: "What if something's not right after you leave?"
+    a: "Call us and we'll come back, no charge, no quibbling. Our alarms carry manufacturer warranties and our workmanship is guaranteed — a false-alarming unit or a placement worry is our problem to fix, not yours to live with."
+---
+
+{% include "partials/page-hero.njk" %}
+
+{%- set img1 = images[imgKey].content[0] %}
+
+<section class="content-block">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-6">
+        <span class="section-label">Start to Finish</span>
+        <h2 class="mt-2 mb-4">The Whole Process, Step by Step</h2>
+        <ul class="step-list">
+          <li>
+            <div class="step-num">1</div>
+            <div class="step-content"><strong>Get in touch</strong><p>Call {{ business.phoneDisplay }} or use the form. Tell us the basics: how many bedrooms, how many levels, own home or rental, and whether there are alarms up there already. Two minutes.</p></div>
+          </li>
+          <li>
+            <div class="step-num">2</div>
+            <div class="step-content"><strong>Fixed price, on the spot</strong><p>We quote the full job — alarms, installation, GST — usually during that first call. No "from" pricing that grows legs, no call-out fee hiding in the fine print.</p></div>
+          </li>
+          <li>
+            <div class="step-num">3</div>
+            <div class="step-content"><strong>Book a time that suits</strong><p>Most installs are booked within the week. We give you an arrival window we actually keep, and text when we're on the way.</p></div>
+          </li>
+          <li>
+            <div class="step-num">4</div>
+            <div class="step-content"><strong>The visit</strong><p>Quick walkthrough to confirm placement, then up they go. Old alarms come down, new ones get tested — properly, every unit — and we show you the hush button before we pack up. Under an hour for most homes.</p></div>
+          </li>
+          <li>
+            <div class="step-num">5</div>
+            <div class="step-content"><strong>Paperwork, same day</strong><p>Landlords get their compliance report emailed that afternoon. Hardwired work comes with a Certificate of Compliance. Everyone gets a dated record of what went in and when it's due for replacement — in ten years.</p></div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <div class="content-img-wrap mb-4">
+          <picture>
+            <source srcset="{{ img1.webp }}" type="image/webp">
+            <img src="{{ img1.file }}" alt="{{ img1.alt }}" width="{{ img1.width }}" height="{{ img1.height }}" loading="lazy">
+          </picture>
+        </div>
+        <div class="info-callout safe">
+          <p><strong>The short version:</strong> one phone call, one visit, one email with the paperwork. Then nothing for ten years — which is exactly how smoke alarms should be.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include "partials/faq-accordion.njk" %}
+{% include "partials/quote-section.njk" %}
+{% include "partials/cta-band.njk" %}

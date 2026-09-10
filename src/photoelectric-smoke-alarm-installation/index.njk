@@ -1,0 +1,79 @@
+---
+layout: layouts/base.njk
+title: Photoelectric Smoke Alarm Installation Christchurch | From $149
+metaDescription: "Photoelectric smoke alarms supplied and installed across Christchurch from $149 including GST. Long-life 10-year sealed battery alarms, fitted by registered electricians. Call 0800 120 046."
+imgKey: photoelectric-smoke-alarm-installation
+heroTitle: Photoelectric Smoke Alarm Installation Christchurch
+heroLead: The alarm type Fire and Emergency NZ recommends, supplied and fitted in the right spots by local registered electricians — from $149 including the alarm and GST.
+breadcrumb: Photoelectric Smoke Alarm Installation
+faqs:
+  - q: "What makes photoelectric alarms better than the old ones?"
+    a: "The old ionisation alarms are quick to notice fast, flaming fires but slow — sometimes fatally slow — on smouldering ones. Photoelectric sensors work the other way: they spot the thick smoke from a couch, curtain or charger fire early, often 20 to 30 minutes sooner. Since most fatal house fires start as slow smoulders while everyone's asleep, that's the fire you want your alarm tuned for. They're also far less touchy about cooking, so they don't get unplugged in frustration."
+  - q: "What does 'long-life' or 'sealed battery' actually mean?"
+    a: "The battery is built into the alarm and lasts its whole 10-year life. There's nothing to replace, so no midnight chirping and no climbing on chairs every year. When the alarm reaches the end of its life, the whole unit gets replaced — and we put a dated sticker on ours so you know exactly when that is."
+  - q: "Can I just buy alarms from the hardware store and stick them up myself?"
+    a: "You can, and honestly a cheap working alarm beats no alarm every time. What you're paying us for is the stuff the box doesn't tell you: which rooms need coverage, where smoke actually travels in your layout, keeping alarms out of false-alarm zones, and quality units we've had zero grief with across thousands of installs. Most of our jobs cost less than a dinner out — and they're done in under an hour."
+  - q: "Do photoelectric alarms meet the rental property rules?"
+    a: "Yes. Long-life photoelectric alarms are exactly what the Residential Tenancies Act calls for when alarms are replaced or added in a rental. If you're a landlord, our <a href='/rental-property-smoke-alarm-compliance/'>compliance check</a> pairs the right alarms with a written report for your file."
+---
+
+{% include "partials/page-hero.njk" %}
+
+{%- set img1 = images[imgKey].content[0] %}
+{%- set img2 = images[imgKey].content[1] %}
+
+<section class="content-block">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-7">
+        <span class="section-label">The Right Type</span>
+        <h2 class="mt-2">Why Photoelectric Is the Alarm Worth Having</h2>
+        <p>Here's a stat that changed how we think about this job: most fatal house fires in New Zealand don't start with a bang. They start with a smoulder — a heater too close to the washing, a phone charger under a pillow, a pot left on low. The smoke builds slowly, quietly, usually at night. And the old-style ionisation alarms that are still stuck to thousands of Christchurch ceilings are the slowest type to react to exactly that kind of fire.</p>
+        <p>Photoelectric alarms use a small light beam that smoke particles scatter. Thick, slow smoke sets them off early — often while the fire is still small enough to put out with a bucket. That head start is the entire point of owning a smoke alarm.</p>
+        <p>There's a second, less dramatic reason we only fit photoelectric: they don't punish you for cooking. Ionisation alarms near a kitchen go off for burnt toast, a hot pan, sometimes a decent fry-up. After the tenth false alarm, the battery comes out "just for now" — and now the house has a decoration on the ceiling instead of an alarm. Photoelectric units mostly leave your cooking alone, which means they stay working.</p>
+      </div>
+      <div class="col-lg-5">
+        <div class="content-img-wrap">
+          <picture>
+            <source srcset="{{ img1.webp }}" type="image/webp">
+            <img src="{{ img1.file }}" alt="{{ img1.alt }}" width="{{ img1.width }}" height="{{ img1.height }}" loading="lazy">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="content-block bg-light-bg">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-5 order-lg-1 order-2">
+        <div class="content-img-wrap">
+          <picture>
+            <source srcset="{{ img2.webp }}" type="image/webp">
+            <img src="{{ img2.file }}" alt="Photoelectric smoke alarm installed on a bedroom ceiling in Christchurch" width="{{ img2.width }}" height="{{ img2.height }}" loading="lazy">
+          </picture>
+        </div>
+      </div>
+      <div class="col-lg-7 order-lg-2 order-1">
+        <span class="section-label">What You Get</span>
+        <h2 class="mt-2">What an Install Visit Looks Like</h2>
+        <p>We turn up when we said we would, walk the house with you, and talk through where alarms should go — every bedroom, the hallway outside them, living areas, and one on each level. Older Christchurch homes throw up quirks all the time: high stud ceilings in St Albans villas, long L-shaped hallways in 60s brick homes, converted garages with a bed in them. Placement is where the local experience earns its keep.</p>
+        <ul class="check-list mt-4 mb-4">
+          <li><i class="fas fa-circle-check"></i> Quality long-life photoelectric alarms with sealed 10-year batteries</li>
+          <li><i class="fas fa-circle-check"></i> Placement planned room by room, not just "wherever's handy"</li>
+          <li><i class="fas fa-circle-check"></i> Old alarms taken down and disposed of properly</li>
+          <li><i class="fas fa-circle-check"></i> Every unit tested and dated before we leave</li>
+          <li><i class="fas fa-circle-check"></i> Fixed price including alarms and GST — from $149 for a single alarm</li>
+        </ul>
+        <div class="info-callout safe">
+          <p><strong>Good to know:</strong> a typical 3-bedroom home needs three alarms for proper coverage. Our whole-home package does exactly that for $389, fitted and tested — see <a href="/pricing/">pricing</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include "partials/faq-accordion.njk" %}
+{% include "partials/quote-section.njk" %}
+{% include "partials/cta-band.njk" %}

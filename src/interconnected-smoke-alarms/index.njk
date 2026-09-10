@@ -1,0 +1,79 @@
+---
+layout: layouts/base.njk
+title: Interconnected Smoke Alarms Christchurch | Wired & Wireless
+metaDescription: "Interconnected smoke alarm installation in Christchurch — when one alarm sounds, they all sound. Wireless and hardwired systems for new builds, renovations and family homes. Call 0800 120 046."
+imgKey: interconnected-smoke-alarms
+heroTitle: Interconnected Smoke Alarms Christchurch
+heroLead: One alarm smells smoke, every alarm in the house sounds. Wireless or hardwired interconnection fitted by registered electricians — required for new builds, brilliant for any two-storey or larger home.
+breadcrumb: Interconnected Smoke Alarms
+faqs:
+  - q: "Do I legally need interconnected alarms?"
+    a: "If you're building new, yes — since late 2023 the Building Code's F7 acceptable solution calls for interconnected smoke alarms in new homes, and many consented renovations trigger the same rule. For an existing home there's no requirement to upgrade, but once you've heard a whole-house system in action it's hard to go back. For sleeping kids behind closed doors, it's a genuinely different level of protection."
+  - q: "Wireless or hardwired — which should I get?"
+    a: "For existing homes, wireless interconnection wins almost every time: no cutting into ceilings, no cabling, and the alarms pair with each other over radio. Install takes about an hour and the house stays tidy. Hardwired interconnection makes sense for new builds and big renovations where the walls are already open. Both do the same thing when it matters — every alarm sounds together."
+  - q: "How many interconnected alarms does my house need?"
+    a: "Same placement logic as any install — every bedroom, hallways, living areas, every level — the difference is they all talk to each other. A typical two-storey 4-bedroom home lands around 6 to 7 alarms. We quote the exact number after a quick chat about your layout, and the price always includes the alarms themselves."
+  - q: "Will they false alarm together? That sounds like chaos."
+    a: "Fair concern — one burnt sausage setting off seven alarms would get old fast. Two things prevent it: we fit photoelectric units, which mostly ignore cooking, and we keep alarms out of false-alarm zones near kitchens and bathrooms. The hush button on any alarm also silences the lot. In practice, false alarms across our interconnected installs are genuinely rare."
+---
+
+{% include "partials/page-hero.njk" %}
+
+{%- set img1 = images[imgKey].content[0] %}
+{%- set img2 = images[imgKey].content[1] %}
+
+<section class="content-block">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-7">
+        <span class="section-label">Whole-House Protection</span>
+        <h2 class="mt-2">The Problem With Alarms That Work Alone</h2>
+        <p>Try this tonight: stand in your bedroom with the door shut, and get someone to set off the smoke alarm at the far end of the house. Modern homes are well insulated and well sealed, and a lot of people are shocked at how little they hear — a faint beeping that might not cut through a fan heater, let alone deep sleep.</p>
+        <p>Now flip it around. A fire starts in the garage or the downstairs lounge at 2am. The alarm down there does its job perfectly and screams into an empty room, while everyone sleeps two closed doors and a staircase away. By the time smoke reaches the hallway alarm outside the bedrooms, you've lost minutes you didn't have.</p>
+        <p>Interconnected alarms fix this one weakness. They're normal photoelectric alarms with one extra trick: when any alarm triggers, every alarm in the house sounds at full volume at the same moment. The fire can start in the laundry and the alarm right above your bed still wakes you. That's the whole idea, and it works.</p>
+        <div class="info-callout">
+          <p><strong>Building or renovating?</strong> New builds now need interconnected alarms to meet Building Code clause F7 — and consented renovations often do too. We work alongside builders across Christchurch and can handle the sign-off paperwork.</p>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="content-img-wrap">
+          <picture>
+            <source srcset="{{ img1.webp }}" type="image/webp">
+            <img src="{{ img1.file }}" alt="{{ img1.alt }}" width="{{ img1.width }}" height="{{ img1.height }}" loading="lazy">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="content-block bg-light-bg">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-5 order-lg-1 order-2">
+        <div class="content-img-wrap">
+          <picture>
+            <source srcset="{{ img2.webp }}" type="image/webp">
+            <img src="{{ img2.file }}" alt="Wireless interconnected smoke alarm system in a Christchurch home" width="{{ img2.width }}" height="{{ img2.height }}" loading="lazy">
+          </picture>
+        </div>
+      </div>
+      <div class="col-lg-7 order-lg-2 order-1">
+        <span class="section-label">Who It's For</span>
+        <h2 class="mt-2">Homes Where Interconnection Really Earns Its Keep</h2>
+        <ul class="signs-list mt-4">
+          <li><i class="fas fa-stairs"></i><span><strong>Two-storey homes.</strong> Sound doesn't travel up stairwells the way you'd hope. Cashmere, Mt Pleasant and every townhouse in town — this is you.</span></li>
+          <li><i class="fas fa-child-reaching"></i><span><strong>Homes with young kids.</strong> Children can sleep through a smoke alarm in the same room. An alarm sounding right beside the parents' bed buys the time to get everyone out.</span></li>
+          <li><i class="fas fa-ear-deaf"></i><span><strong>Anyone hard of hearing.</strong> Every alarm sounding at once is dramatically harder to miss, and we can add units with strobes or bed shakers.</span></li>
+          <li><i class="fas fa-house-chimney"></i><span><strong>Bigger single-level homes.</strong> Long ranch-style layouts in Rolleston and West Melton put serious distance between a garage fire and a back bedroom.</span></li>
+          <li><i class="fas fa-hammer"></i><span><strong>New builds and renovations.</strong> Not optional — the Building Code requires it. We make sure what goes in actually passes inspection.</span></li>
+        </ul>
+        <p class="mt-4">Wireless systems install in about an hour with zero mess — the alarms pair with each other and that's that. If you're already getting other electrical work done, hardwired interconnection can ride along for less than you'd think.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include "partials/faq-accordion.njk" %}
+{% include "partials/quote-section.njk" %}
+{% include "partials/cta-band.njk" %}

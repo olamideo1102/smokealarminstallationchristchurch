@@ -1,0 +1,77 @@
+---
+layout: layouts/base.njk
+title: About Us | Smoke Alarm Installation Christchurch
+metaDescription: "Meet the Wigram-based team behind Smoke Alarm Installation Christchurch — local EWRB registered electricians who've fitted over 6,000 alarms across Canterbury homes and rentals."
+imgKey: about
+heroTitle: The Team Behind the Alarms
+heroLead: We're a small crew of Christchurch electricians who got tired of seeing dead alarms and empty ceiling brackets in every second house — so we made this the job.
+breadcrumb: About Us
+---
+
+{% include "partials/page-hero.njk" %}
+
+{%- set img1 = images[imgKey].content[0] %}
+{%- set img2 = images[imgKey].content[1] %}
+
+<section class="content-block">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-7">
+        <span class="section-label">Our Story</span>
+        <h2 class="mt-2">How Smoke Alarms Became the Whole Job</h2>
+        <p>This business started as a sideline. We're electricians by trade — switchboards, rewires, the usual — and smoke alarms were the thing we'd fix on the way out the door. "While you're here, can you look at the beeping thing in the hallway?" Sure. Always.</p>
+        <p>Then we started keeping count. In one stretch of about forty jobs across Christchurch, more than half the homes had a smoke alarm problem: expired units, missing batteries, empty brackets where an alarm used to live, or 1990s ionisation models yellowed to the colour of weak tea. These weren't careless people. They were ordinary families who assumed the alarm on the ceiling worked because it looked like it did.</p>
+        <p>Somewhere around the fortieth house, the sideline became the point. Smoke alarms are cheap, the installation is quick, and no other hour of electrical work moves the safety needle further. So we built a service around doing this one thing properly — right type, right placement, real testing, honest paperwork — at prices that don't make anyone put it off another year.</p>
+        <p>A few thousand installs later, that's still the whole pitch.</p>
+      </div>
+      <div class="col-lg-5">
+        <div class="content-img-wrap">
+          <picture>
+            <source srcset="{{ img1.webp }}" type="image/webp">
+            <img src="{{ img1.file }}" alt="{{ img1.alt }}" width="{{ img1.width }}" height="{{ img1.height }}" loading="lazy">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="content-block bg-light-bg">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-5 order-lg-1 order-2">
+        <div class="content-img-wrap">
+          <picture>
+            <source srcset="{{ img2.webp }}" type="image/webp">
+            <img src="{{ img2.file }}" alt="Christchurch electrician from the Smoke Alarm Installation Christchurch team" width="{{ img2.width }}" height="{{ img2.height }}" loading="lazy">
+          </picture>
+        </div>
+      </div>
+      <div class="col-lg-7 order-lg-2 order-1">
+        <span class="section-label">What We Stand On</span>
+        <h2 class="mt-2">A Few Things We Won't Budge On</h2>
+        <ul class="signs-list mt-4">
+          <li><i class="fas fa-id-badge"></i><span><strong>Registered electricians only.</strong> Every person we send is EWRB registered and insured. It matters most on hardwired jobs, but it shapes how everything gets done.</span></li>
+          <li><i class="fas fa-hand-holding-dollar"></i><span><strong>Fixed prices that include the alarm.</strong> We quote the whole job. If we misjudge it, that's our margin, not your invoice.</span></li>
+          <li><i class="fas fa-comment-slash"></i><span><strong>No scare tactics.</strong> Fire safety sells itself without theatrics. We'll tell you plainly what's wrong and what it costs — and just as plainly when something's fine and needs nothing.</span></li>
+          <li><i class="fas fa-broom"></i><span><strong>Tidy visits.</strong> Shoes off, drop sheets when drilling, packaging in the van when we go. Your house should look untouched except for the new alarms.</span></li>
+          <li><i class="fas fa-map-pin"></i><span><strong>Local, and staying that way.</strong> Based in Wigram, working Canterbury-wide. When you call, you get someone who knows what a Summerhill stone ceiling is.</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="content-block">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-3 col-md-6"><div class="value-card"><i class="fas fa-calendar"></i><h5>Since 2012</h5><p>Twelve years of Christchurch ceilings, from villa high-studs to new-build raked ceilings.</p></div></div>
+      <div class="col-lg-3 col-md-6"><div class="value-card"><i class="fas fa-bell"></i><h5>6,000+ Alarms</h5><p>Installed and tested across Canterbury homes, rentals and small businesses.</p></div></div>
+      <div class="col-lg-3 col-md-6"><div class="value-card"><i class="fas fa-id-card"></i><h5>EWRB Registered</h5><p>Registered, insured electricians on every job — wired or wireless.</p></div></div>
+      <div class="col-lg-3 col-md-6"><div class="value-card"><i class="fas fa-house-circle-check"></i><h5>Landlord Trusted</h5><p>Compliance reports relied on by property managers across the city.</p></div></div>
+    </div>
+  </div>
+</section>
+
+{% include "partials/quote-section.njk" %}
+{% include "partials/cta-band.njk" %}

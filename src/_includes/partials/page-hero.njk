@@ -1,0 +1,38 @@
+{%- set heroImg = images[imgKey].hero if imgKey and images[imgKey] else null %}
+<section class="page-hero">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-7">
+        <div class="breadcrumb-row">
+          <a href="/">Home</a> <span class="mx-1">/</span> {{ breadcrumb or heroTitle }}
+        </div>
+        <h1>{{ heroTitle }}</h1>
+        <p class="lead">{{ heroLead }}</p>
+        <div class="hero-btn-group">
+          <a href="tel:{{ business.phoneTel }}" class="btn-call"><i class="fas fa-phone"></i> Call {{ business.phoneDisplay }}</a>
+          <a href="#quote" class="btn-quote-ghost"><i class="fas fa-file-lines"></i> Get a Free Quote</a>
+        </div>
+      </div>
+      <div class="col-lg-5 d-none d-lg-block">
+        {%- if heroImg %}
+        <div class="page-hero-img">
+          <picture>
+            <source srcset="{{ heroImg.webp }}" type="image/webp">
+            <img src="{{ heroImg.file }}" alt="{{ heroImg.alt }}" width="{{ heroImg.width }}" height="{{ heroImg.height }}" loading="eager">
+          </picture>
+        </div>
+        {%- endif %}
+      </div>
+    </div>
+  </div>
+</section>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ business.url }}/" },
+    { "@type": "ListItem", "position": 2, "name": "{{ breadcrumb or heroTitle }}", "item": "{{ business.url }}{{ page.url }}" }
+  ]
+}
+</script>

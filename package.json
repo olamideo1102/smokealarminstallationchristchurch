@@ -1,0 +1,17 @@
+{
+  "name": "smoke-alarm-installation-christchurch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static local-SEO site for a Christchurch, NZ smoke alarm installation business, built with Eleventy.",
+  "scripts": {
+    "fetch-images": "node scripts/fetch-images.js",
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
+    "start": "npx eleventy --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "dotenv": "^16.4.5",
+    "sharp": "^0.33.5"
+  }
+}

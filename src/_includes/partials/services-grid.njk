@@ -1,0 +1,32 @@
+<section class="services-section" id="services">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="section-label">What We Do</span>
+      <h2 class="mt-2">{{ servicesHeading or "Smoke Alarm Services Across Christchurch" }}</h2>
+      <p class="text-muted mx-auto" style="max-width:620px;">{{ servicesLead or "One local team for every smoke alarm job — from a single replacement to a whole-house interconnected system." }}</p>
+    </div>
+    <div class="row g-4">
+      {%- for service in services %}
+      {%- set cardImg = images[service.slug].hero if images[service.slug] else null %}
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card">
+          <div class="service-card-img">
+            {%- if cardImg %}
+            <picture>
+              <source srcset="{{ cardImg.webp }}" type="image/webp">
+              <img src="{{ cardImg.file }}" alt="{{ service.name }} in Christchurch" width="{{ cardImg.width }}" height="{{ cardImg.height }}" loading="lazy">
+            </picture>
+            {%- endif %}
+            <div class="service-card-icon"><i class="fas {{ service.icon }}"></i></div>
+          </div>
+          <div class="service-card-body">
+            <h3><a href="/{{ service.slug }}/">{{ service.name }}</a></h3>
+            <p>{{ service.blurb }}</p>
+            <a class="service-card-link" href="/{{ service.slug }}/">Learn more</a>
+          </div>
+        </div>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>

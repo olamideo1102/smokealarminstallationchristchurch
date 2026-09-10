@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "photoelectric-smoke-alarm-installation",
+    "name": "Photoelectric Smoke Alarm Installation",
+    "short": "Photoelectric Alarms",
+    "icon": "fa-bell",
+    "blurb": "Long-life photoelectric alarms fitted in the right spots — the type Fire and Emergency NZ recommends for every Kiwi home."
+  },
+  {
+    "slug": "interconnected-smoke-alarms",
+    "name": "Interconnected Smoke Alarms",
+    "short": "Interconnected Alarms",
+    "icon": "fa-wifi",
+    "blurb": "When one alarm sounds, they all sound. Wireless or wired interconnection for new builds, renovations and bigger homes."
+  },
+  {
+    "slug": "hardwired-smoke-alarm-installation",
+    "name": "Hardwired Smoke Alarm Installation",
+    "short": "Hardwired Alarms",
+    "icon": "fa-plug",
+    "blurb": "240V mains-powered alarms with battery backup, installed by EWRB registered electricians with a Certificate of Compliance."
+  },
+  {
+    "slug": "rental-property-smoke-alarm-compliance",
+    "name": "Rental Property Smoke Alarm Compliance",
+    "short": "Rental Compliance",
+    "icon": "fa-house-circle-check",
+    "blurb": "Alarms checked and installed to Residential Tenancies Act rules, with a written compliance report for your records."
+  },
+  {
+    "slug": "smoke-alarm-replacement",
+    "name": "Smoke Alarm Replacement",
+    "short": "Alarm Replacement",
+    "icon": "fa-rotate",
+    "blurb": "Alarms past their 10-year expiry, yellowed, chirping or dead? We swap them for fresh long-life photoelectric units."
+  },
+  {
+    "slug": "smoke-alarm-testing-and-maintenance",
+    "name": "Smoke Alarm Testing & Maintenance",
+    "short": "Testing & Maintenance",
+    "icon": "fa-clipboard-check",
+    "blurb": "Every alarm tested, cleaned and dated, with a simple report telling you what's working and what needs replacing."
+  }
+]
