@@ -1,10 +1,10 @@
 {
   "name": "Smoke Alarm Installation Christchurch",
   "legalName": "Smoke Alarm Installation Christchurch",
-  "phoneDisplay": "0800 120 046",
-  "phoneTel": "0800120046",
+  "phoneDisplay": "0800 120 066",
+  "phoneTel": "0800120066",
   "email": "info@smokealarminstallationchristchurch.co.nz",
-  "addressLine1": "67 Treffers Road",
+  "addressLine1": "6 Stark Drive",
   "suburb": "Wigram",
   "city": "Christchurch",
   "region": "Canterbury",
@@ -22,5 +22,5 @@
     { "days": "Saturday", "hours": "8:00am - 1:00pm" },
     { "days": "Sunday", "hours": "Closed" }
   ],
-  "mapEmbedSrc": "https://www.google.com/maps?q=67+Treffers+Road+Christchurch+8042+New+Zealand&output=embed"
+  "mapEmbedSrc": "https://www.google.com/maps?q=6+Stark+Drive+Wigram+Christchurch+8042+New+Zealand&output=embed"
 }
