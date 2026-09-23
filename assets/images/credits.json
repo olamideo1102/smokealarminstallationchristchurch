@@ -2,352 +2,196 @@
   {
     "page": "home",
     "file": "/assets/images/home/home-hero.jpg",
-    "query": "smoke detector ceiling",
-    "photographer": "Caleb Oquendo",
-    "photographerUrl": "https://www.pexels.com/@caleboquendo",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/ceiling-mounted-fire-alarm-system-in-building-39183052/"
+    "source": "assets/source/alarm-fitted-to-ceiling-hands.jpg"
   },
   {
     "page": "home",
     "file": "/assets/images/home/home-1.jpg",
-    "query": "smoke detector ceiling",
-    "photographer": "Jakub Zerdzicki",
-    "photographerUrl": "https://www.pexels.com/@jakubzerdzicki",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/alarm-box-on-gray-wall-21782970/"
+    "source": "assets/source/alarm-with-smoke-swirling.jpg"
   },
   {
     "page": "home",
     "file": "/assets/images/home/home-2.jpg",
-    "query": "smoke detector",
-    "photographer": "Alexey Demidov",
-    "photographerUrl": "https://www.pexels.com/@alexeydemidov",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/steaming-grill-at-beach-10813669/"
+    "source": "assets/source/alarm-mounted-clean-ceiling.jpg"
   },
   {
     "page": "photoelectric-smoke-alarm-installation",
     "file": "/assets/images/photoelectric-smoke-alarm-installation/photoelectric-smoke-alarm-installation-hero.jpg",
-    "query": "smoke detector white ceiling",
-    "photographer": "Jakub Zerdzicki",
-    "photographerUrl": "https://www.pexels.com/@jakubzerdzicki",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/smart-home-security-system-24503710/"
+    "source": "assets/source/alarm-on-ceiling-clean.jpg"
   },
   {
     "page": "photoelectric-smoke-alarm-installation",
     "file": "/assets/images/photoelectric-smoke-alarm-installation/photoelectric-smoke-alarm-installation-1.jpg",
-    "query": "smoke detector",
-    "photographer": "Ron Lach",
-    "photographerUrl": "https://www.pexels.com/@ron-lach",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/film-reel-held-in-hands-10273456/"
+    "source": "assets/source/alarm-underside-product.jpg"
   },
   {
     "page": "photoelectric-smoke-alarm-installation",
     "file": "/assets/images/photoelectric-smoke-alarm-installation/photoelectric-smoke-alarm-installation-2.jpg",
-    "query": "smoke detector",
-    "photographer": "Jakub Zerdzicki",
-    "photographerUrl": "https://www.pexels.com/@jakubzerdzicki",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/led-bulbs-surveillance-camera-and-smoke-detector-25020272/"
+    "source": "assets/source/alarm-fitted-two-hands.jpg"
   },
   {
     "page": "interconnected-smoke-alarms",
     "file": "/assets/images/interconnected-smoke-alarms/interconnected-smoke-alarms-hero.jpg",
-    "query": "smoke alarm",
-    "photographer": "Jakub Zerdzicki",
-    "photographerUrl": "https://www.pexels.com/@jakubzerdzicki",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/emergency-fire-alarm-system-on-concrete-wall-31470430/"
+    "source": "assets/source/alarm-in-long-hallway.jpg"
   },
   {
     "page": "interconnected-smoke-alarms",
     "file": "/assets/images/interconnected-smoke-alarms/interconnected-smoke-alarms-1.jpg",
-    "query": "smoke detector",
-    "photographer": "Brendan Rühli",
-    "photographerUrl": "https://www.pexels.com/@brendanruehli",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/vintage-fire-alarm-on-concrete-wall-37833045/"
+    "source": "assets/source/alarm-smoke-dark-ceiling.jpg"
   },
   {
     "page": "interconnected-smoke-alarms",
     "file": "/assets/images/interconnected-smoke-alarms/interconnected-smoke-alarms-2.jpg",
-    "query": "modern hallway interior home",
-    "photographer": "Max Vakhtbovych",
-    "photographerUrl": "https://www.pexels.com/@artbovich",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/interior-design-of-room-7546322/"
+    "source": "assets/source/alarm-fitted-hands-ceiling.jpg"
   },
   {
     "page": "hardwired-smoke-alarm-installation",
     "file": "/assets/images/hardwired-smoke-alarm-installation/hardwired-smoke-alarm-installation-hero.jpg",
-    "query": "electrician working ceiling",
-    "photographer": "Anete Lusina",
-    "photographerUrl": "https://www.pexels.com/@anete-lusina",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/man-screwing-light-bulb-into-lamp-4792521/"
+    "source": "assets/source/alarm-base-wiring-screwdriver.jpg"
   },
   {
     "page": "hardwired-smoke-alarm-installation",
     "file": "/assets/images/hardwired-smoke-alarm-installation/hardwired-smoke-alarm-installation-1.jpg",
-    "query": "electrician working ceiling",
-    "photographer": "Audy of  Course",
-    "photographerUrl": "https://www.pexels.com/@audy-of-course-306413796",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/a-female-electrician-standing-on-a-ladder-and-holding-cables-20500461/"
+    "source": "assets/source/electrician-ceiling-alarm-closeup.jpg"
   },
   {
     "page": "hardwired-smoke-alarm-installation",
     "file": "/assets/images/hardwired-smoke-alarm-installation/hardwired-smoke-alarm-installation-2.jpg",
-    "query": "electrician working ceiling",
-    "photographer": "MART  PRODUCTION",
-    "photographerUrl": "https://www.pexels.com/@mart-production",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/a-man-installing-a-light-bulb-7641361/"
+    "source": "assets/source/electrician-fitting-alarm-arms-up.jpg"
   },
   {
     "page": "rental-property-smoke-alarm-compliance",
     "file": "/assets/images/rental-property-smoke-alarm-compliance/rental-property-smoke-alarm-compliance-hero.jpg",
-    "query": "house keys landlord",
-    "photographer": "Jakub Zerdzicki",
-    "photographerUrl": "https://www.pexels.com/@jakubzerdzicki",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/hand-holding-house-keys-in-modern-interior-31651009/"
+    "source": "assets/source/installer-smiling-with-alarm.jpg"
   },
   {
     "page": "rental-property-smoke-alarm-compliance",
     "file": "/assets/images/rental-property-smoke-alarm-compliance/rental-property-smoke-alarm-compliance-1.jpg",
-    "query": "house keys landlord",
-    "photographer": "Jakub Zerdzicki",
-    "photographerUrl": "https://www.pexels.com/@jakubzerdzicki",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/hand-holding-keys-in-modern-home-interior-29871187/"
+    "source": "assets/source/electrician-blue-shirt-fitting.jpg"
   },
   {
     "page": "rental-property-smoke-alarm-compliance",
     "file": "/assets/images/rental-property-smoke-alarm-compliance/rental-property-smoke-alarm-compliance-2.jpg",
-    "query": "house keys landlord",
-    "photographer": "Jakub Zerdzicki",
-    "photographerUrl": "https://www.pexels.com/@jakubzerdzicki",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/real-estate-investment-concept-with-keys-and-money-30139610/"
+    "source": "assets/source/hand-testing-alarm-ceiling.jpg"
   },
   {
     "page": "smoke-alarm-replacement",
     "file": "/assets/images/smoke-alarm-replacement/smoke-alarm-replacement-hero.jpg",
-    "query": "smoke detector",
-    "photographer": "Jakub Zerdzicki",
-    "photographerUrl": "https://www.pexels.com/@jakubzerdzicki",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/smart-home-devices-empty-smartphone-screen-mockup-27662902/"
+    "source": "assets/source/hand-holding-alarm-screwdriver.jpg"
   },
   {
     "page": "smoke-alarm-replacement",
     "file": "/assets/images/smoke-alarm-replacement/smoke-alarm-replacement-1.jpg",
-    "query": "smoke detector battery",
-    "photographer": "Landiva  Weber",
-    "photographerUrl": "https://www.pexels.com/@diva",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/close-up-of-three-aa-alkaline-batteries-on-beige-surface-39104917/"
+    "source": "assets/source/alarm-product-white.jpg"
   },
   {
     "page": "smoke-alarm-replacement",
     "file": "/assets/images/smoke-alarm-replacement/smoke-alarm-replacement-2.jpg",
-    "query": "smoke detector",
-    "photographer": "David McElwee",
-    "photographerUrl": "https://www.pexels.com/@davidmcelwee",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/fire-alarm-on-house-roof-14860386/"
+    "source": "assets/source/alarm-smoke-fire-glow.jpg"
   },
   {
     "page": "smoke-alarm-testing-and-maintenance",
     "file": "/assets/images/smoke-alarm-testing-and-maintenance/smoke-alarm-testing-and-maintenance-hero.jpg",
-    "query": "smoke detector",
-    "photographer": "Jakub Zerdzicki",
-    "photographerUrl": "https://www.pexels.com/@jakubzerdzicki",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/smart-home-devices-security-camera-27662922/"
+    "source": "assets/source/finger-pressing-test-button.jpg"
   },
   {
     "page": "smoke-alarm-testing-and-maintenance",
     "file": "/assets/images/smoke-alarm-testing-and-maintenance/smoke-alarm-testing-and-maintenance-1.jpg",
-    "query": "smoke detector hand",
-    "photographer": "Ksenia Shabanskaya",
-    "photographerUrl": "https://www.pexels.com/@ksenia-shabanskaya-168782052",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/hand-against-smoke-12186823/"
+    "source": "assets/source/man-testing-ceiling-alarm.jpg"
   },
   {
     "page": "smoke-alarm-testing-and-maintenance",
     "file": "/assets/images/smoke-alarm-testing-and-maintenance/smoke-alarm-testing-and-maintenance-2.jpg",
-    "query": "clipboard checklist",
-    "photographer": "RDNE Stock project",
-    "photographerUrl": "https://www.pexels.com/@rdne",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/checklist-on-a-clipboard-8293635/"
+    "source": "assets/source/installer-screwdriver-portrait.jpg"
   },
   {
     "page": "how-it-works",
     "file": "/assets/images/how-it-works/how-it-works-hero.jpg",
-    "query": "tradesman van tools",
-    "photographer": "svetlana photographer",
-    "photographerUrl": "https://www.pexels.com/@svetlana-photographer-2149375332",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/assorted-hand-tools-on-wooden-surface-33074110/"
+    "source": "assets/source/installer-reaching-ceiling-alarm.jpg"
   },
   {
     "page": "how-it-works",
     "file": "/assets/images/how-it-works/how-it-works-1.jpg",
-    "query": "work van",
-    "photographer": "Hugo Sykes",
-    "photographerUrl": "https://www.pexels.com/@hugosykes",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/a-van-with-a-roof-rack-on-the-side-of-the-road-27666753/"
+    "source": "assets/source/installer-arm-raised-fitting.jpg"
   },
   {
     "page": "how-it-works",
     "file": "/assets/images/how-it-works/how-it-works-2.jpg",
-    "query": "handshake home",
-    "photographer": "Kindel Media",
-    "photographerUrl": "https://www.pexels.com/@kindelmedia",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/men-shaking-hands-7578901/"
-  },
-  {
-    "page": "pricing",
-    "file": "/assets/images/pricing/pricing-hero.jpg",
-    "query": "calculator budget home",
-    "photographer": "SHVETS production",
-    "photographerUrl": "https://www.pexels.com/@shvets-production",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/a-close-up-shot-of-a-woman-using-a-calculator-9052857/"
-  },
-  {
-    "page": "pricing",
-    "file": "/assets/images/pricing/pricing-1.jpg",
-    "query": "calculator budget home",
-    "photographer": "Pixabay",
-    "photographerUrl": "https://www.pexels.com/@pixabay",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/black-calculator-near-ballpoint-pen-on-white-printed-paper-53621/"
-  },
-  {
-    "page": "pricing",
-    "file": "/assets/images/pricing/pricing-2.jpg",
-    "query": "calculator budget home",
-    "photographer": "https://kaboompics.com/",
-    "photographerUrl": "https://www.pexels.com/@karola-g",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/woman-holding-a-pink-calculator-7680741/"
+    "source": "assets/source/alarm-base-wiring-screwdriver.jpg"
   },
   {
     "page": "about",
     "file": "/assets/images/about/about-hero.jpg",
-    "query": "electrician portrait smiling",
-    "photographer": "Anastasia  Shuraeva",
-    "photographerUrl": "https://www.pexels.com/@anastasia-shuraeva",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/a-man-in-white-button-up-shirt-smiling-7647233/"
+    "source": "assets/source/alarm-product-teal.jpg"
   },
   {
     "page": "about",
     "file": "/assets/images/about/about-1.jpg",
-    "query": "electrician portrait",
-    "photographer": "Elvan  Lam",
-    "photographerUrl": "https://www.pexels.com/@elvan-lam-1105439946",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/electronics-technician-working-with-wiring-tools-29491360/"
+    "source": "assets/source/alarm-smoke-wide-banner.jpg"
   },
   {
     "page": "about",
     "file": "/assets/images/about/about-2.jpg",
-    "query": "electrician portrait",
-    "photographer": "Rene Terp",
-    "photographerUrl": "https://www.pexels.com/@reneterp",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/worker-at-electrical-transformer-substation-13820148/"
+    "source": "assets/source/alarm-red-led-dramatic.jpg"
+  },
+  {
+    "page": "pricing",
+    "file": "/assets/images/pricing/pricing-hero.jpg",
+    "source": "assets/source/alarm-product-white.jpg"
+  },
+  {
+    "page": "pricing",
+    "file": "/assets/images/pricing/pricing-1.jpg",
+    "source": "assets/source/alarm-underside-product.jpg"
+  },
+  {
+    "page": "pricing",
+    "file": "/assets/images/pricing/pricing-2.jpg",
+    "source": "assets/source/alarm-fitted-two-hands.jpg"
   },
   {
     "page": "faqs",
     "file": "/assets/images/faqs/faqs-hero.jpg",
-    "query": "smoke detector ceiling white",
-    "photographer": "Jakub Zerdzicki",
-    "photographerUrl": "https://www.pexels.com/@jakubzerdzicki",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/smart-home-devices-equipment-23878591/"
+    "source": "assets/source/alarm-on-ceiling-clean.jpg"
   },
   {
     "page": "faqs",
     "file": "/assets/images/faqs/faqs-1.jpg",
-    "query": "smoke detector",
-    "photographer": "Jakub Zerdzicki",
-    "photographerUrl": "https://www.pexels.com/@jakubzerdzicki",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/fire-alarm-button-on-a-gray-wall-20614571/"
+    "source": "assets/source/alarm-with-smoke-swirling.jpg"
   },
   {
     "page": "faqs",
     "file": "/assets/images/faqs/faqs-2.jpg",
-    "query": "cozy living room fireplace",
-    "photographer": "Curtis Adams",
-    "photographerUrl": "https://www.pexels.com/@curtis-adams-1694007",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/brown-couch-in-the-living-room-8584020/"
+    "source": "assets/source/alarm-smoke-dark-ceiling.jpg"
   },
   {
     "page": "service-areas",
     "file": "/assets/images/service-areas/service-areas-hero.jpg",
-    "query": "christchurch new zealand",
-    "photographer": "sasif awan",
-    "photographerUrl": "https://www.pexels.com/@sasif-awan-520122311",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/christchurch-arts-centre-historic-building-exterior-34725008/"
+    "source": "assets/source/alarm-in-long-hallway.jpg"
   },
   {
     "page": "service-areas",
     "file": "/assets/images/service-areas/service-areas-1.jpg",
-    "query": "christchurch new zealand",
-    "photographer": "Donovan Kelly",
-    "photographerUrl": "https://www.pexels.com/@donovan-kelly-110228397",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/avon-river-and-the-bridge-of-remembrance-18163773/"
+    "source": "assets/source/man-testing-ceiling-alarm.jpg"
   },
   {
     "page": "service-areas",
     "file": "/assets/images/service-areas/service-areas-2.jpg",
-    "query": "christchurch new zealand",
-    "photographer": "Patrick Rose",
-    "photographerUrl": "https://www.pexels.com/@prose4ever",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/the-riverside-market-in-new-zealand-5363175/"
+    "source": "assets/source/alarm-mounted-clean-ceiling.jpg"
   },
   {
     "page": "contact",
     "file": "/assets/images/contact/contact-hero.jpg",
-    "query": "phone call customer",
-    "photographer": "https://kaboompics.com/",
-    "photographerUrl": "https://www.pexels.com/@karola-g",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/man-in-gray-long-sleeve-shirt-wearing-black-framed-eyeglasses-6214838/"
+    "source": "assets/source/installer-smiling-with-alarm.jpg"
   },
   {
     "page": "contact",
     "file": "/assets/images/contact/contact-1.jpg",
-    "query": "phone call customer",
-    "photographer": "Yan Krukau",
-    "photographerUrl": "https://www.pexels.com/@yankrukov",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/woman-with-afro-hair-holding-cellphone-8867208/"
+    "source": "assets/source/installer-screwdriver-portrait.jpg"
   },
   {
     "page": "contact",
     "file": "/assets/images/contact/contact-2.jpg",
-    "query": "phone call customer",
-    "photographer": "Anna Shvets",
-    "photographerUrl": "https://www.pexels.com/@shvetsa",
-    "source": "pexels",
-    "sourceUrl": "https://www.pexels.com/photo/woman-in-black-blazer-talking-on-the-phone-3727462/"
+    "source": "assets/source/alarm-fitted-hands-ceiling.jpg"
   }
 ]

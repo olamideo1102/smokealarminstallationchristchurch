@@ -181,14 +181,14 @@
         "webp": "/assets/images/how-it-works/how-it-works-1.webp",
         "width": 900,
         "height": 700,
-        "alt": "Smoke alarm installer arriving at a Christchurch home"
+        "alt": "Smoke alarm installer at work in a Christchurch home"
       },
       {
         "file": "/assets/images/how-it-works/how-it-works-2.jpg",
         "webp": "/assets/images/how-it-works/how-it-works-2.webp",
         "width": 900,
         "height": 700,
-        "alt": "Smoke alarm installer arriving at a Christchurch home"
+        "alt": "Smoke alarm installer at work in a Christchurch home"
       }
     ],
     "hero": {
@@ -196,32 +196,7 @@
       "webp": "/assets/images/how-it-works/how-it-works-hero.webp",
       "width": 1600,
       "height": 900,
-      "alt": "Smoke alarm installer arriving at a Christchurch home"
-    }
-  },
-  "pricing": {
-    "content": [
-      {
-        "file": "/assets/images/pricing/pricing-1.jpg",
-        "webp": "/assets/images/pricing/pricing-1.webp",
-        "width": 900,
-        "height": 700,
-        "alt": "Upfront smoke alarm installation pricing in Christchurch"
-      },
-      {
-        "file": "/assets/images/pricing/pricing-2.jpg",
-        "webp": "/assets/images/pricing/pricing-2.webp",
-        "width": 900,
-        "height": 700,
-        "alt": "Upfront smoke alarm installation pricing in Christchurch"
-      }
-    ],
-    "hero": {
-      "file": "/assets/images/pricing/pricing-hero.jpg",
-      "webp": "/assets/images/pricing/pricing-hero.webp",
-      "width": 1600,
-      "height": 900,
-      "alt": "Upfront smoke alarm installation pricing in Christchurch"
+      "alt": "Smoke alarm installer at work in a Christchurch home"
     }
   },
   "about": {
@@ -247,6 +222,31 @@
       "width": 1600,
       "height": 900,
       "alt": "The team behind Smoke Alarm Installation Christchurch"
+    }
+  },
+  "pricing": {
+    "content": [
+      {
+        "file": "/assets/images/pricing/pricing-1.jpg",
+        "webp": "/assets/images/pricing/pricing-1.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Upfront smoke alarm installation pricing in Christchurch"
+      },
+      {
+        "file": "/assets/images/pricing/pricing-2.jpg",
+        "webp": "/assets/images/pricing/pricing-2.webp",
+        "width": 900,
+        "height": 700,
+        "alt": "Upfront smoke alarm installation pricing in Christchurch"
+      }
+    ],
+    "hero": {
+      "file": "/assets/images/pricing/pricing-hero.jpg",
+      "webp": "/assets/images/pricing/pricing-hero.webp",
+      "width": 1600,
+      "height": 900,
+      "alt": "Upfront smoke alarm installation pricing in Christchurch"
     }
   },
   "faqs": {

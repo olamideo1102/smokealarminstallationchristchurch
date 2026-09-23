@@ -5,6 +5,7 @@
   "description": "Static local-SEO site for a Christchurch, NZ smoke alarm installation business, built with Eleventy.",
   "scripts": {
     "fetch-images": "node scripts/fetch-images.js",
+    "images": "node scripts/build-images.js",
     "build": "npx eleventy",
     "serve": "npx eleventy --serve",
     "start": "npx eleventy --serve"
