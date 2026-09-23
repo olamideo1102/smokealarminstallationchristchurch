@@ -3,6 +3,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "assets/js": "assets/js" });
   eleventyConfig.addPassthroughCopy({ "assets/images": "assets/images" });
   eleventyConfig.addPassthroughCopy("robots.txt");
+  eleventyConfig.addPassthroughCopy("_headers");
 
   // Cache-busting query string for CSS/JS, fresh on every build.
   eleventyConfig.addGlobalData("assetVersion", () => Date.now());
